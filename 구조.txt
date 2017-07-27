@@ -1,0 +1,5 @@
+App : 서버 실행 
+cmnUtil: 일반 함수 선언부
+SQLLib: db접속 모듈 라이브러리
+SVCLib: tcp통신 모듈
+SVCfunc: 서비스 처리 함수 모듈
