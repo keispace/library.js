@@ -1,0 +1,28 @@
+﻿//RSP_CD
+서비스#(00)+req데이터이상(0)/rsp(1)+상태코드(00)
+00000: 작업 성공 [no message] 0> 사용 지양
+01 로그인
+01000: ID 없음 "ID is Empty"
+01001: PW 없음 "PW is Empty"
+01002: 그룹코드 없음 "group code is Empty"
+01100: 로그인 성공  [no message]
+01101: 일치하는 로그인 정보 없음(ID/PW/SCH)  "infomation not matting"
+01102: 암호 변경일 초과. 'PW Change Limit Exceed'
+01103: 아이디 접근제한됨 'Login Progibited'
+01104: 중복접속 "Login Duplicated"
+
+02 로그아웃
+02100: 로그아웃 성공 [no message]
+
+03 pw변경
+03100:  pw변경 성공 [no message]
+03101: 일치하는 로그인 정보 없음(ID/PW/SCH)  "infomation not matting"
+
+04
+04100: 조회 성공
+04101: 조회된 자료 없음. "result is 0"
+
+
+88888: 디비 작업 오류(response.ERROR 확인)
+99999: 전달 정보 에러(json 파싱 실패.)
+
